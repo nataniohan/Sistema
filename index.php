@@ -57,47 +57,41 @@
                         </div>
                     </div>
                     <div class="col"><!--SEGUNDA TABELA-->
-                        <div class="cor">
-                            <div class="borda2">
-                                <div class="centro">
-                                    <p class="titulo">Dados do cartão</p>
-                                    <p>Número do cartão</p>
-                                    <input type="text" name="numeroDoCartao" id="numeroDoCartao">
-                                    <p>CVV</p>
-                                    <input type="text" name="CVV" id="CVV">
-                                    <p>Data de vencimento</p>
-                                    <input type="text" name="dataVencimento" id="dataVencimento">
-                                    <p>CPF</p>
-                                    <input type="text" name="cpf" id="cpf"><br>
-                                    <form>
-                                        <input type="radio" id="male" value="male">
-                                        <label for="male">Crédito</label>
-                                    </form>
-                                </div>
-                            </div>
+                        <div class="cor borda2 centro">
+                            <p class="titulo">Dados do cartão</p>
+                            <p>Número do cartão</p>
+                            <input type="text" name="numeroDoCartao" id="numeroDoCartao">
+                            <p>CVV</p>
+                            <input type="text" name="CVV" id="CVV">
+                            <p>Data de vencimento</p>
+                            <input type="text" name="dataVencimento" id="dataVencimento">
+                            <p>CPF</p>
+                            <input type="text" name="cpf" id="cpf"><br>
+                            <form>
+                                <input type="radio" id="male" value="male">
+                                <label for="male">Crédito</label>
+                            </form>
                         </div>
                     </div>
                     
-                        <div class="col"><!--informativo do produto ainda fazer-->
+                    <div class="col"><!--segunda tabela-->
                         <table id="customizado">
-                                <tr>
+                            <tr>
                                     <th class="titulo">Detalhes do produto</th>
-                                </tr>
-                                <tr>
-                                    <td>Pedido (1x Jogo de cama do Batman R$39,90)</td>
-                                </tr>
-                                <tr>
-                                    <td>Frete (12 dias úteis – R$ 15,00)</td>
-                                </tr> 
-                                <tr>
-                                    <td><strong>Total (R$54,90)</strong></td>
-                                </tr> 
+                            </tr>
+                            <tr>
+                                <td>Pedido (1x Jogo de cama do Batman R$39,90)</td>
+                            </tr>
+                            <tr>
+                                <td>Frete (12 dias úteis – R$ 15,00)</td>
+                            </tr> 
+                            <tr>
+                                <td><strong>Total (R$54,90)</strong></td>
+                            </tr> 
                         </table> 
-                        <button class="botao botao1">Finalizar Compra</button>
-                        </div>
-                    
+                        <button class="botao botao1" type='submit'>Finish</button>
+                    </div>
                 </div>
-                <button class="botao botao1" type='submit'>Finish</button>
             </div>
         </form>
         <div class="rodape">
