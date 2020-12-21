@@ -18,6 +18,8 @@ if(mysqli_num_rows ($resultado)>0){
     $_SESSION['autenticado'] = 'SIM';
 	exit();
 }else{
-    header('location:naoCadastrado.php');
+    echo"<script language='javascript' type='text/javascript'>alert('login ou senha incorretos');
+    window.location.href='login.php';</script>";
+    exit();
 };
 ?>
